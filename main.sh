@@ -17,7 +17,7 @@ curl 'https://sapientia-emte.edupage.org/timetable/server/ttviewer.js?__func=get
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
   --data-raw '{"__args":[null,2024],"__gsh":"00000000"}' |\
-jq > ttviewer_getTTViewerData.json
+jq > "$TT_SAPIENTIA_TMP"/ttviewer_getTTViewerData.json
 
 curl 'https://sapientia-emte.edupage.org/timetable/server/regulartt.js?__func=regularttGetData' \
   -H 'accept: */*' \
@@ -36,7 +36,7 @@ curl 'https://sapientia-emte.edupage.org/timetable/server/regulartt.js?__func=re
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
   --data-raw '{"__args":[null,"180"],"__gsh":"00000000"}' |\
-jq > regulartt_regularttGetData.json
+jq > "$TT_SAPIENTIA_TMP"/regulartt_regularttGetData.json
 
 
 current_date=$(date +%Y-%m-%d)
@@ -62,15 +62,31 @@ curl 'https://sapientia-emte.edupage.org/rpr/server/maindbi.js?__func=mainDBIAcc
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
   --data-raw '{"__args":[null,2024,{"vt_filter":{"datefrom":"'"$monday_date"'","dateto":"'"$sunday_date"'"}},{"op":"fetch","needed_part":{"teachers":["short","name","firstname","lastname","callname","subname","code","cb_hidden","expired"],"classes":["short","name","firstname","lastname","callname","subname","code","classroomid"],"classrooms":["short","name","firstname","lastname","callname","subname","code"],"igroups":["short","name","firstname","lastname","callname","subname","code"],"students":["short","name","firstname","lastname","callname","subname","code","classid"],"subjects":["short","name","firstname","lastname","callname","subname","code"],"events":["typ","name"],"event_types":["name","icon"],"subst_absents":["date","absent_typeid","groupname"],"periods":["short","name","firstname","lastname","callname","subname","code","period","starttime","endtime"],"dayparts":["starttime","endtime"],"dates":["tt_num","tt_day"]},"needed_combos":{}}],"__gsh":"00000000"}' |\
-jq > maindbi_mainDBIAccessor.json
+jq > "$TT_SAPIENTIA_TMP"/maindbi_mainDBIAccessor.json
 
+if [[ -n "$(diff "$TT_SAPIENTIA_TMP"/ttviewer_getTTViewerData.json ./ttviewer_getTTViewerData.json)" ]]; then
+    echo 'ttviewer_getTTViewerData.json changed'
+    cp "$TT_SAPIENTIA_TMP"/ttviewer_getTTViewerData.json ./ttviewer_getTTViewerData.json
+fi
+if [[ -n "$(diff "$TT_SAPIENTIA_TMP"/regulartt_regularttGetData.json ./regulartt_regularttGetData.json)" ]]; then
+    echo 'regulartt_regularttGetData.json changed'
+    cp "$TT_SAPIENTIA_TMP"/regulartt_regularttGetData.json ./regulartt_regularttGetData.json
+fi
+if [[ -n "$(diff "$TT_SAPIENTIA_TMP"/maindbi_mainDBIAccessor.json ./maindbi_mainDBIAccessor.json)" ]]; then
+    echo 'maindbi_mainDBIAccessor.json changed'
+    cp "$TT_SAPIENTIA_TMP"/maindbi_mainDBIAccessor.json ./maindbi_mainDBIAccessor.json
+fi
 
 git add ttviewer_getTTViewerData.json regulartt_regularttGetData.json maindbi_mainDBIAccessor.json
 
 if [[ $(git diff --name-only --cached) ]]; then
-    echo "Changes found"
     git commit -m "Added detected changes at $(date '+%Y-%m-%d %H:%M')."
     git push
 else
     echo "No changes found"
 fi
+
+echo 'Cleaning up temporary files'
+rm "$TT_SAPIENTIA_TMP"/ttviewer_getTTViewerData.json \
+  "$TT_SAPIENTIA_TMP"/regulartt_regularttGetData.json \
+  "$TT_SAPIENTIA_TMP"/maindbi_mainDBIAccessor.json
