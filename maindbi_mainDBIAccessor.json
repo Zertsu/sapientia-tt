@@ -6892,15 +6892,15 @@
       "dbi:igroups": 1885484,
       "dbi:groupsubjects": 6310196,
       "dbi:old_igroups": 8958308,
-      "dbi:periods": 7648676,
+      "dbi:periods": 4791111,
       "dbi:dayparts": 4035034,
       "dbi:dates": 7998082,
       "dbi:event_types": 1534295,
       "dbi:events.2025-03": 2135127,
       "dbi:halves": 8727405,
       "dbi:officialtimetables": 8376579,
-      "timetables": 9760770,
-      "dbi:timetables": 7774459,
+      "timetables": 9760772,
+      "dbi:timetables": 7774469,
       "dbi:students": 6647248
     }
   }

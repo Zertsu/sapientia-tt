@@ -52447,7 +52447,7 @@
               "days": "100000",
               "weeks": "11",
               "classroomids": [
-                "*7"
+                "*1"
               ]
             },
             {
@@ -53433,8 +53433,8 @@
               "id": "*762",
               "lessonid": "*758",
               "locked": false,
-              "period": "3",
-              "days": "010000",
+              "period": "7",
+              "days": "100000",
               "weeks": "01",
               "classroomids": [
                 "*17"
@@ -53481,7 +53481,7 @@
               "days": "100000",
               "weeks": "10",
               "classroomids": [
-                "*1"
+                "*7"
               ]
             },
             {
@@ -65230,13 +65230,16 @@
         }
       ],
       "changeEvents": {
-        "dbi:timetables": 7774459,
+        "dbi:timetables": 7774469,
         "ttonline_logo": 4774475
       }
     },
     "unregistered": false,
     "_changeEvents": {
-      "dbi:global_settings": 9574517
+      "dbi:global_settings": 2084775
     }
+  },
+  "ce": {
+    "ttdocs": 5907923
   }
 }
