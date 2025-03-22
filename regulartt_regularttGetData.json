@@ -52478,8 +52478,8 @@
               "id": "*678",
               "lessonid": "*675",
               "locked": false,
-              "period": "1",
-              "days": "001000",
+              "period": "7",
+              "days": "000100",
               "weeks": "11",
               "classroomids": [
                 "*56"
@@ -65188,13 +65188,16 @@
         }
       ],
       "changeEvents": {
-        "dbi:timetables": 1549681,
-        "ttonline_logo": 5052537
+        "dbi:timetables": 1549686,
+        "ttonline_logo": 3993523
       }
     },
     "unregistered": false,
     "_changeEvents": {
-      "dbi:global_settings": 5526175
+      "dbi:global_settings": 1298426
     }
+  },
+  "ce": {
+    "ttdocs": 1451005
   }
 }
