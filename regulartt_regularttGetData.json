@@ -49611,7 +49611,7 @@
               "days": "100000",
               "weeks": "11",
               "classroomids": [
-                "*62"
+                "*8"
               ]
             },
             {
@@ -65188,7 +65188,7 @@
         }
       ],
       "changeEvents": {
-        "dbi:timetables": 1549686,
+        "dbi:timetables": 1549691,
         "ttonline_logo": 3993523
       }
     },
@@ -65198,6 +65198,6 @@
     }
   },
   "ce": {
-    "ttdocs": 1451005
+    "ttdocs": 1451087
   }
 }
