@@ -87,6 +87,11 @@
                   "name": "Név formátum"
                 },
                 {
+                  "id": "seminars_display",
+                  "type": "enum",
+                  "name": "A tanítási órák és tanulók együttes megjelenésének megadása az óraredben osztályonként"
+                },
+                {
                   "id": "m_strPrintHeaderText",
                   "type": "string",
                   "name": "Fejléc"
@@ -275,6 +280,7 @@
                 "m_bSujectsInMinutes": false,
                 "m_bShowComboDays": false,
                 "name_format": "LSF",
+                "seminars_display": "",
                 "m_strPrintHeaderText": "",
                 "m_strDateBellowTimeTable": "2024-2025 II. félév órarendje érvényes 2025 március 1-től.",
                 "m_bPrintDozory": true,
@@ -65196,5 +65202,8 @@
     "_changeEvents": {
       "dbi:global_settings": 1298426
     }
+  },
+  "ce": {
+    "ttdocs": 1451231
   }
 }
