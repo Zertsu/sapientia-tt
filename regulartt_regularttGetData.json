@@ -65194,16 +65194,13 @@
         }
       ],
       "changeEvents": {
-        "dbi:timetables": 4408156,
-        "ttonline_logo": 6724576
+        "dbi:timetables": 2162486,
+        "ttonline_logo": 2985238
       }
     },
     "unregistered": false,
     "_changeEvents": {
-      "dbi:global_settings": 8729367
+      "dbi:global_settings": 8830179
     }
-  },
-  "ce": {
-    "ttdocs": 8630245
   }
 }
