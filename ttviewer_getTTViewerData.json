@@ -17,7 +17,7 @@
           "year": 2024,
           "text": "Érvényes_Maros_24_25_II_felev (03. 01 - 2025. 05. 30)",
           "datefrom": "2025-03-01",
-          "hidden": false
+          "hidden": true
         },
         {
           "tt_num": "181",
@@ -29,7 +29,10 @@
       ]
     },
     "_changeEvents": {
-      "dbi:global_settings": 1107723
+      "dbi:global_settings": 7354313
     }
+  },
+  "ce": {
+    "ttdocs": 6409321
   }
 }
