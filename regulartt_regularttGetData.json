@@ -260,6 +260,12 @@
               "name": "reg_name"
             },
             {
+              "id": "tt_num",
+              "type": "string",
+              "name": "tt_num",
+              "table": "officialetimetables"
+            },
+            {
               "id": "tt_datefrom",
               "type": "string",
               "name": "tt_datefrom"
@@ -311,6 +317,7 @@
               },
               "customfields": [],
               "reg_name": "SAPIENTIA Hungarian University of Transylvania, Calea Sighișoarei nr. 2., Corunca",
+              "tt_num": "",
               "tt_datefrom": ""
             }
           ],
@@ -319,6 +326,7 @@
             "settings",
             "customfields",
             "reg_name",
+            "tt_num",
             "tt_datefrom"
           ]
         },
@@ -54406,6 +54414,11 @@
               "name": "printlogo_url"
             },
             {
+              "id": "printsubstduty",
+              "type": "checkbox",
+              "name": "Szolgálat (Helyettesítés)"
+            },
+            {
               "id": "name",
               "type": "string",
               "name": "Megnevezés"
@@ -55865,6 +55878,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Osztályok - egyenként",
               "extracolumns": [],
               "extrarows": [],
@@ -56742,6 +56756,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tanárok - egyenként",
               "extracolumns": [],
               "extrarows": [],
@@ -57955,6 +57970,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Egy diák órarendje",
               "extracolumns": [],
               "extrarows": [],
@@ -58748,6 +58764,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tantermek - egyenként",
               "extracolumns": [],
               "extrarows": [],
@@ -58953,6 +58970,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tantárgyak - egyenként",
               "extracolumns": [],
               "extrarows": [],
@@ -59661,6 +59679,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Osztályok - összesítve",
               "extracolumns": [],
               "extrarows": [],
@@ -60285,6 +60304,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tanárok - összesítve",
               "extracolumns": [],
               "extrarows": [],
@@ -61077,6 +61097,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tantermek - összesítve",
               "extracolumns": [],
               "extrarows": [],
@@ -61281,6 +61302,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Osztályok - faliújság",
               "extracolumns": [],
               "extrarows": [],
@@ -61485,6 +61507,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tanárok - faliújság",
               "extracolumns": [],
               "extrarows": [],
@@ -61689,6 +61712,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tantermek - faliújság",
               "extracolumns": [],
               "extrarows": [],
@@ -61892,6 +61916,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Osztályok tantárgyankénti óraszámai",
               "extracolumns": [],
               "extrarows": [],
@@ -62096,6 +62121,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tanulók összesített órarendje",
               "extracolumns": [],
               "extrarows": [],
@@ -62300,6 +62326,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tantrágyak - összesítve",
               "extracolumns": [],
               "extrarows": [],
@@ -62505,6 +62532,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Egyéni 1",
               "extracolumns": [],
               "extrarows": [],
@@ -62710,6 +62738,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Egyéni 2",
               "extracolumns": [],
               "extrarows": [],
@@ -62914,6 +62943,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Egyéni 3",
               "extracolumns": [],
               "extrarows": [],
@@ -63707,6 +63737,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Osztályok - egyenként, óraszámmal",
               "extracolumns": [],
               "extrarows": [],
@@ -63912,6 +63943,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tanárok - egyenként, óraszámmal",
               "extracolumns": [],
               "extrarows": [],
@@ -64117,6 +64149,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "TimeTable for each teacher - extra",
               "extracolumns": [],
               "extrarows": [],
@@ -64320,6 +64353,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Tanárok tantárgyankénti osztályai",
               "extracolumns": [],
               "extrarows": [],
@@ -64524,6 +64558,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "Daily attendance",
               "extracolumns": [],
               "extrarows": [
@@ -64814,6 +64849,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "List of teachers",
               "extracolumns": [],
               "extrarows": [],
@@ -65015,6 +65051,7 @@
               "withclassroomtt": false,
               "printlogo": false,
               "printlogo_url": "",
+              "printsubstduty": false,
               "name": "List of classes",
               "extracolumns": [
                 {
@@ -65110,6 +65147,7 @@
             "withclassroomtt",
             "printlogo",
             "printlogo_url",
+            "printsubstduty",
             "name",
             "extracolumns",
             "extrarows",
@@ -65204,6 +65242,6 @@
     }
   },
   "ce": {
-    "ttdocs": 6409481
+    "ttdocs": 6409508
   }
 }
