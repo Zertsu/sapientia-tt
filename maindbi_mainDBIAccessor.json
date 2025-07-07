@@ -6618,37 +6618,37 @@
         "_uial": 0,
         "data_rows": [
           {
-            "id": "2025-06-30",
+            "id": "2025-07-07",
             "tt_num": "",
             "tt_day": null
           },
           {
-            "id": "2025-07-01",
+            "id": "2025-07-08",
             "tt_num": "",
             "tt_day": null
           },
           {
-            "id": "2025-07-02",
+            "id": "2025-07-09",
             "tt_num": "",
             "tt_day": null
           },
           {
-            "id": "2025-07-03",
+            "id": "2025-07-10",
             "tt_num": "",
             "tt_day": null
           },
           {
-            "id": "2025-07-04",
+            "id": "2025-07-11",
             "tt_num": "",
             "tt_day": null
           },
           {
-            "id": "2025-07-05",
+            "id": "2025-07-12",
             "tt_num": "",
             "tt_day": null
           },
           {
-            "id": "2025-07-06",
+            "id": "2025-07-13",
             "tt_num": "",
             "tt_day": null
           }
@@ -6896,7 +6896,6 @@
       "dbi:dayparts": 7342218,
       "dbi:dates": 1096457,
       "dbi:event_types": 3654078,
-      "dbi:events.2025-06": 8707601,
       "dbi:events.2025-07": 4665095,
       "dbi:halves": 9505929,
       "dbi:officialtimetables": 2190725,
