@@ -24,7 +24,7 @@
           "year": 2024,
           "text": "Vizsga_Maros_24_25_II_felev (03. 01 - 2025. 06. 29)",
           "datefrom": "2025-03-01",
-          "hidden": false
+          "hidden": true
         }
       ]
     },
@@ -33,6 +33,6 @@
     }
   },
   "ce": {
-    "ttdocs": 5623349
+    "ttdocs": 5623367
   }
 }
