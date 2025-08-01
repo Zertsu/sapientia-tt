@@ -10,7 +10,7 @@
       "allow": false
     },
     "regular": {
-      "default_num": "181",
+      "default_num": "",
       "timetables": [
         {
           "tt_num": "180",
@@ -31,8 +31,5 @@
     "_changeEvents": {
       "dbi:global_settings": 6935079
     }
-  },
-  "ce": {
-    "ttdocs": 5623764
   }
 }
