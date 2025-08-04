@@ -6616,28 +6616,7 @@
           }
         ],
         "_uial": 0,
-        "data_rows": [
-          {
-            "id": "2025-07-28",
-            "tt_num": "",
-            "tt_day": null
-          },
-          {
-            "id": "2025-07-29",
-            "tt_num": "",
-            "tt_day": null
-          },
-          {
-            "id": "2025-07-30",
-            "tt_num": "",
-            "tt_day": null
-          },
-          {
-            "id": "2025-07-31",
-            "tt_num": "",
-            "tt_day": null
-          }
-        ],
+        "data_rows": [],
         "data_columns": [
           "tt_num",
           "tt_day"
@@ -6881,7 +6860,6 @@
       "dbi:dayparts": 4052059,
       "dbi:dates": 5295609,
       "dbi:event_types": 3157497,
-      "dbi:events.2025-07": 1944895,
       "dbi:halves": 8763251,
       "dbi:officialtimetables": 7221485,
       "timetables": 6329370,
