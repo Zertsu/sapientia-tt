@@ -260,6 +260,11 @@
               "name": "reg_name"
             },
             {
+              "id": "edupage_year",
+              "type": "schoolyear",
+              "name": "edupage_year"
+            },
+            {
               "id": "tt_num",
               "type": "string",
               "name": "tt_num",
@@ -317,6 +322,7 @@
               },
               "customfields": [],
               "reg_name": "SAPIENTIA Hungarian University of Transylvania, Calea Sighișoarei nr. 2., Corunca",
+              "edupage_year": 2025,
               "tt_num": "",
               "tt_datefrom": ""
             }
@@ -326,6 +332,7 @@
             "settings",
             "customfields",
             "reg_name",
+            "edupage_year",
             "tt_num",
             "tt_datefrom"
           ]
@@ -65242,6 +65249,6 @@
     }
   },
   "ce": {
-    "ttdocs": 9325181
+    "ttdocs": 9325182
   }
 }
