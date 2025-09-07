@@ -65239,16 +65239,16 @@
         }
       ],
       "changeEvents": {
-        "dbi:timetables": 4219601,
+        "dbi:timetables": 4596117,
         "ttonline_logo": 6157009
       }
     },
     "unregistered": false,
     "_changeEvents": {
-      "dbi:global_settings": 5328150
+      "dbi:global_settings": 4639184
     }
   },
   "ce": {
-    "ttdocs": 9325196
+    "ttdocs": 9325197
   }
 }
