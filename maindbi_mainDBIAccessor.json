@@ -259,6 +259,12 @@
             "expired": false
           },
           {
+            "id": "-5482",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
             "id": "-5452",
             "short": "AC",
             "cb_hidden": false,
@@ -685,6 +691,12 @@
             "expired": false
           },
           {
+            "id": "-5483",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
             "id": "-5454",
             "short": "BK",
             "cb_hidden": false,
@@ -1057,6 +1069,12 @@
             "expired": false
           },
           {
+            "id": "-5484",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
             "id": "-5408",
             "short": "Dr. Suciu S.",
             "cb_hidden": false,
@@ -1119,6 +1137,12 @@
           {
             "id": "-5415",
             "short": "Dr. Szász R.",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
+            "id": "-5481",
+            "short": "",
             "cb_hidden": false,
             "expired": false
           },
@@ -1269,6 +1293,12 @@
           {
             "id": "-5436",
             "short": "Dr.",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
+            "id": "-5485",
+            "short": "",
             "cb_hidden": false,
             "expired": false
           },
@@ -6849,21 +6879,21 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 6008969,
+      "dbi:teachers": 6009014,
       "dbi:subjects": 3851980,
       "dbi:classrooms": 1625367,
       "dbi:classes": 5321598,
       "dbi:igroups": 1548007,
       "dbi:groupsubjects": 9839115,
       "dbi:old_igroups": 3866887,
-      "dbi:periods": 4580071,
+      "dbi:periods": 4580083,
       "dbi:dayparts": 6468133,
       "dbi:dates": 8218184,
       "dbi:event_types": 2558001,
       "dbi:halves": 3995022,
       "dbi:officialtimetables": 6055407,
-      "timetables": 5829135,
-      "dbi:timetables": 4596117,
+      "timetables": 5829142,
+      "dbi:timetables": 4596162,
       "dbi:students": 8995475
     }
   }
