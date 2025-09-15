@@ -6890,14 +6890,14 @@
       "dbi:igroups": 9843551,
       "dbi:groupsubjects": 9448845,
       "dbi:old_igroups": 1134899,
-      "dbi:periods": 7873845,
+      "dbi:periods": 7873857,
       "dbi:dayparts": 6105341,
       "dbi:dates": 5224677,
       "dbi:event_types": 6648719,
       "dbi:halves": 4203493,
       "dbi:officialtimetables": 3760767,
-      "timetables": 7572551,
-      "dbi:timetables": 4957655,
+      "timetables": 7572560,
+      "dbi:timetables": 4957699,
       "dbi:students": 9218957
     }
   }

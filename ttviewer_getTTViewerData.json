@@ -10,27 +10,13 @@
       "allow": false
     },
     "regular": {
-      "default_num": "191",
+      "default_num": "193",
       "timetables": [
         {
-          "tt_num": "180",
-          "year": 2024,
-          "text": "Érvényes_Maros_24_25_II_felev (03. 01 - 2025. 05. 30)",
-          "datefrom": "2025-03-01",
-          "hidden": true
-        },
-        {
-          "tt_num": "191",
+          "tt_num": "193",
           "year": 2025,
-          "text": "Modosithato_3_Maros_25_26_I_felev (09. 15 - 2025. 09. 26)",
+          "text": "NEM modosithato_3_Maros_25_26_I_felev (09. 15 - 2025. 09. 27)",
           "datefrom": "2025-09-15",
-          "hidden": false
-        },
-        {
-          "tt_num": "192",
-          "year": 2025,
-          "text": "Modositas_OE_3",
-          "datefrom": "2025-08-01",
           "hidden": false
         }
       ]
