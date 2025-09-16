@@ -10,7 +10,7 @@
       "allow": false
     },
     "regular": {
-      "default_num": "193",
+      "default_num": "",
       "timetables": [
         {
           "tt_num": "193",
