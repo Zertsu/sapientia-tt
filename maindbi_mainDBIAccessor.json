@@ -6896,9 +6896,9 @@
       "dbi:event_types": 8967824,
       "dbi:halves": 3474384,
       "dbi:officialtimetables": 7989390,
-      "timetables": 5711559,
-      "dbi:timetables": 5552527,
-      "dbi:tt_snapshots": 9257117,
+      "timetables": 5711561,
+      "dbi:timetables": 5552537,
+      "dbi:tt_snapshots": 9257119,
       "dbi:students": 2803722
     }
   }
