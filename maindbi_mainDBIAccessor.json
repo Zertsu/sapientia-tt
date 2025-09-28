@@ -5338,6 +5338,10 @@
             "short": "C007 E.-100"
           },
           {
+            "id": "-2155",
+            "short": "C223"
+          },
+          {
             "id": "-2149",
             "short": "C223 Ford"
           },
@@ -6885,19 +6889,19 @@
     "changeEvents": {
       "dbi:teachers": 3553809,
       "dbi:subjects": 6470034,
-      "dbi:classrooms": 9557117,
+      "dbi:classrooms": 9557118,
       "dbi:classes": 3324558,
       "dbi:igroups": 7095795,
       "dbi:groupsubjects": 7230432,
       "dbi:old_igroups": 3171529,
-      "dbi:periods": 4454399,
+      "dbi:periods": 4454411,
       "dbi:dayparts": 6562088,
       "dbi:dates": 4437669,
       "dbi:event_types": 7152551,
       "dbi:halves": 1439122,
       "dbi:officialtimetables": 2768620,
-      "timetables": 5711604,
-      "dbi:timetables": 5552708,
+      "timetables": 5711611,
+      "dbi:timetables": 5552756,
       "dbi:students": 1164552
     }
   }
