@@ -10,7 +10,7 @@
       "allow": false
     },
     "regular": {
-      "default_num": "195",
+      "default_num": "",
       "timetables": [
         {
           "tt_num": "195",
@@ -26,6 +26,6 @@
     }
   },
   "ce": {
-    "ttdocs": 5055141
+    "ttdocs": 5055291
   }
 }
