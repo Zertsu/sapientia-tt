@@ -17,15 +17,12 @@
           "year": 2025,
           "text": "Maros_25_26_I_felev (09. 29 - 2025. 12. 20)",
           "datefrom": "2025-09-29",
-          "hidden": false
+          "hidden": true
         }
       ]
     },
     "_changeEvents": {
       "dbi:global_settings": 3473136
     }
-  },
-  "ce": {
-    "ttdocs": 5223089
   }
 }
