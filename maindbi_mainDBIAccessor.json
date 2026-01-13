@@ -571,6 +571,18 @@
             "expired": false
           },
           {
+            "id": "-5487",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
+            "id": "-5486",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
             "id": "-5340",
             "short": "Jakab-Farkas L.",
             "cb_hidden": false,
@@ -6887,22 +6899,22 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 4307231,
-      "dbi:subjects": 7518485,
-      "dbi:classrooms": 7637560,
-      "dbi:classes": 2933638,
-      "dbi:igroups": 5536979,
-      "dbi:groupsubjects": 4688383,
-      "dbi:old_igroups": 5798955,
-      "dbi:periods": 1531400,
-      "dbi:dayparts": 4570008,
-      "dbi:dates": 1461429,
-      "dbi:event_types": 3338385,
-      "dbi:halves": 4998753,
-      "dbi:officialtimetables": 2765355,
-      "timetables": 6893345,
-      "dbi:timetables": 2245362,
-      "dbi:students": 4108127
+      "dbi:teachers": 4307236,
+      "dbi:subjects": 7148109,
+      "dbi:classrooms": 2183565,
+      "dbi:classes": 5371892,
+      "dbi:igroups": 9966689,
+      "dbi:groupsubjects": 9802153,
+      "dbi:old_igroups": 7642950,
+      "dbi:periods": 1860830,
+      "dbi:dayparts": 1176102,
+      "dbi:dates": 2747381,
+      "dbi:event_types": 5747013,
+      "dbi:halves": 1830781,
+      "dbi:officialtimetables": 7552935,
+      "timetables": 6893350,
+      "dbi:timetables": 2245387,
+      "dbi:students": 9549856
     }
   }
 }
