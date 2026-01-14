@@ -571,12 +571,6 @@
             "expired": false
           },
           {
-            "id": "-5487",
-            "short": "",
-            "cb_hidden": false,
-            "expired": false
-          },
-          {
             "id": "-5486",
             "short": "",
             "cb_hidden": false,
@@ -6899,7 +6893,7 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 4307236,
+      "dbi:teachers": 4307240,
       "dbi:subjects": 7148109,
       "dbi:classrooms": 2183565,
       "dbi:classes": 5371892,
@@ -6912,8 +6906,8 @@
       "dbi:event_types": 5747013,
       "dbi:halves": 1830781,
       "dbi:officialtimetables": 7552935,
-      "timetables": 6893350,
-      "dbi:timetables": 2245387,
+      "timetables": 6893355,
+      "dbi:timetables": 2245413,
       "dbi:students": 9549856
     }
   }
