@@ -193,6 +193,12 @@
             "expired": false
           },
           {
+            "id": "-5488",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
             "id": "-5475",
             "short": "Dr. Brassai S.Tihamér",
             "cb_hidden": false,
@@ -6893,7 +6899,7 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 1565654,
+      "dbi:teachers": 1565657,
       "dbi:subjects": 9868408,
       "dbi:classrooms": 1431385,
       "dbi:classes": 9101210,
@@ -6906,8 +6912,8 @@
       "dbi:event_types": 3618282,
       "dbi:halves": 7587842,
       "dbi:officialtimetables": 4428620,
-      "timetables": 9297375,
-      "dbi:timetables": 9933335,
+      "timetables": 9297384,
+      "dbi:timetables": 9933385,
       "dbi:students": 3771164
     }
   }
