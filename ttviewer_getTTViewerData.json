@@ -18,6 +18,13 @@
           "text": "Maros_25_26_I_felev (09. 29 - 2025. 12. 20)",
           "datefrom": "2025-09-29",
           "hidden": true
+        },
+        {
+          "tt_num": "200",
+          "year": 2025,
+          "text": "Modósítható_Maros_25_26_II_felev_02 (02. 05 - 2026. 02. 12)",
+          "datefrom": "2026-02-05",
+          "hidden": false
         }
       ]
     },
