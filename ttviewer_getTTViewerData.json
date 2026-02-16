@@ -10,7 +10,7 @@
       "allow": false
     },
     "regular": {
-      "default_num": "",
+      "default_num": "201",
       "timetables": [
         {
           "tt_num": "195",
@@ -24,6 +24,13 @@
           "year": 2025,
           "text": "Modósítható_Maros_25_26_II_felev_02 (02. 05 - 2026. 02. 12)",
           "datefrom": "2026-02-05",
+          "hidden": false
+        },
+        {
+          "tt_num": "201",
+          "year": 2025,
+          "text": "NEM_modósitható_Maros_25_26_II_felev_02 (02. 16 - 2026. 02. 28)",
+          "datefrom": "2026-02-16",
           "hidden": false
         }
       ]
