@@ -22,15 +22,8 @@
         {
           "tt_num": "200",
           "year": 2025,
-          "text": "Modósítható_Maros_25_26_II_felev_02 (02. 05 - 2026. 02. 12)",
-          "datefrom": "2026-02-05",
-          "hidden": true
-        },
-        {
-          "tt_num": "201",
-          "year": 2025,
-          "text": "NEM_modósitható_Maros_25_26_II_felev_02 (02. 16 - 2026. 02. 28)",
-          "datefrom": "2026-02-16",
+          "text": "Modósítható_Maros_25_26_II_felev_02 (03. 01 - 2026. 05. 31)",
+          "datefrom": "2026-03-01",
           "hidden": false
         }
       ]
