@@ -1,0 +1,38 @@
+{
+  "r": {
+    "allow_my_items": {},
+    "defaults": {
+      "showColors": true,
+      "timeMode": false,
+      "swapAxis": false
+    },
+    "current": {
+      "allow": false
+    },
+    "regular": {
+      "default_num": "",
+      "timetables": [
+        {
+          "tt_num": "195",
+          "year": 2025,
+          "text": "Maros_25_26_I_felev (09. 29 - 2025. 12. 20)",
+          "datefrom": "2025-09-29",
+          "hidden": true
+        },
+        {
+          "tt_num": "200",
+          "year": 2025,
+          "text": "Modósítható_Maros_25_26_II_felev_02 (03. 01 - 2026. 05. 31)",
+          "datefrom": "2026-03-01",
+          "hidden": false
+        }
+      ]
+    },
+    "_changeEvents": {
+      "dbi:global_settings": 7521876
+    }
+  },
+  "ce": {
+    "ttdocs": 6610199
+  }
+}

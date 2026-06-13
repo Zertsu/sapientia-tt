@@ -1,0 +1,18 @@
+{
+  "r": {
+    "rights": {
+      "subjects": false,
+      "classes": false,
+      "teachers": false,
+      "classrooms": false,
+      "students": false,
+      "igroups": false,
+      "classroomsupervision": false,
+      "teachers_summary": false,
+      "classes_summary": false,
+      "classrooms_summary": false,
+      "igroups_summary": false
+    },
+    "error": "Nem megfelelő jogosultságok"
+  }
+}
