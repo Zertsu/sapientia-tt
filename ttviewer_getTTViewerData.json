@@ -24,12 +24,15 @@
           "year": 2025,
           "text": "Modósítható_Maros_25_26_II_felev_02 (03. 01 - 2026. 05. 31)",
           "datefrom": "2026-03-01",
-          "hidden": false
+          "hidden": true
         }
       ]
     },
     "_changeEvents": {
       "dbi:global_settings": 7746585
     }
+  },
+  "ce": {
+    "ttdocs": 6610261
   }
 }
