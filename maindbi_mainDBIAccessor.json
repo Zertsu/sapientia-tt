@@ -6899,22 +6899,22 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 5384540,
-      "dbi:subjects": 9660459,
-      "dbi:classrooms": 1529419,
-      "dbi:classes": 7777430,
-      "dbi:igroups": 9361283,
-      "dbi:groupsubjects": 1520538,
-      "dbi:old_igroups": 3865318,
-      "dbi:periods": 7829520,
-      "dbi:dayparts": 2951579,
-      "dbi:dates": 2569767,
-      "dbi:event_types": 4077918,
-      "dbi:halves": 7620044,
-      "dbi:officialtimetables": 5746314,
-      "timetables": 3675628,
-      "dbi:timetables": 6058298,
-      "dbi:students": 6973850
+      "dbi:teachers": 8108998,
+      "dbi:subjects": 9648857,
+      "dbi:classrooms": 7759977,
+      "dbi:classes": 4638866,
+      "dbi:igroups": 3752957,
+      "dbi:groupsubjects": 3185445,
+      "dbi:old_igroups": 4546620,
+      "dbi:periods": 9281481,
+      "dbi:dayparts": 4423147,
+      "dbi:dates": 6399098,
+      "dbi:event_types": 5401864,
+      "dbi:halves": 9706503,
+      "dbi:officialtimetables": 5127939,
+      "timetables": 5326899,
+      "dbi:timetables": 4848483,
+      "dbi:students": 7640881
     }
   }
 }
