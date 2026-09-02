@@ -601,6 +601,12 @@
             "expired": false
           },
           {
+            "id": "-5491",
+            "short": "",
+            "cb_hidden": false,
+            "expired": false
+          },
+          {
             "id": "-5343",
             "short": "Dr. Kabai R.",
             "cb_hidden": false,
@@ -765,12 +771,6 @@
           {
             "id": "-5364",
             "short": "Dr. Kupán Pál",
-            "cb_hidden": false,
-            "expired": false
-          },
-          {
-            "id": "-5478",
-            "short": "Dr. Kutasi Nimród",
             "cb_hidden": false,
             "expired": false
           },
@@ -6899,21 +6899,21 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 7588050,
+      "dbi:teachers": 7588063,
       "dbi:subjects": 8769314,
       "dbi:classrooms": 7455537,
       "dbi:classes": 8085487,
       "dbi:igroups": 2133711,
       "dbi:groupsubjects": 4493625,
       "dbi:old_igroups": 6726907,
-      "dbi:periods": 1993431,
+      "dbi:periods": 1993443,
       "dbi:dayparts": 1713885,
       "dbi:dates": 6419641,
       "dbi:event_types": 4103074,
       "dbi:halves": 4221257,
       "dbi:officialtimetables": 8850635,
-      "timetables": 1708024,
-      "dbi:timetables": 2810965,
+      "timetables": 1708031,
+      "dbi:timetables": 2811003,
       "dbi:students": 1982980
     }
   }
