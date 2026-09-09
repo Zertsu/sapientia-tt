@@ -6899,21 +6899,21 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 7588063,
+      "dbi:teachers": 3844081,
       "dbi:subjects": 5176889,
       "dbi:classrooms": 9115061,
       "dbi:classes": 4101832,
       "dbi:igroups": 3230517,
       "dbi:groupsubjects": 9064302,
       "dbi:old_igroups": 1108610,
-      "dbi:periods": 1993443,
+      "dbi:periods": 5519983,
       "dbi:dayparts": 3994830,
       "dbi:dates": 6850195,
       "dbi:event_types": 3496471,
       "dbi:halves": 2847976,
       "dbi:officialtimetables": 2184178,
-      "timetables": 1708100,
-      "dbi:timetables": 2811346,
+      "timetables": 1708112,
+      "dbi:timetables": 2811406,
       "dbi:students": 9756055
     }
   }
