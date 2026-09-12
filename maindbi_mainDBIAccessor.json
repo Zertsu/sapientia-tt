@@ -6899,7 +6899,7 @@
       }
     ],
     "changeEvents": {
-      "dbi:teachers": 3844081,
+      "dbi:teachers": 3844084,
       "dbi:subjects": 5176889,
       "dbi:classrooms": 9115061,
       "dbi:classes": 4101832,
@@ -6912,8 +6912,8 @@
       "dbi:event_types": 3496471,
       "dbi:halves": 2847976,
       "dbi:officialtimetables": 2184178,
-      "timetables": 1708242,
-      "dbi:timetables": 2812071,
+      "timetables": 1708333,
+      "dbi:timetables": 2812516,
       "dbi:students": 9756055
     }
   }
