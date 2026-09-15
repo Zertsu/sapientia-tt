@@ -6902,18 +6902,18 @@
       "dbi:teachers": 3844084,
       "dbi:subjects": 8061811,
       "dbi:classrooms": 7538611,
-      "dbi:classes": 5269874,
+      "dbi:classes": 5269950,
       "dbi:igroups": 1052871,
       "dbi:groupsubjects": 3337645,
       "dbi:old_igroups": 3773181,
-      "dbi:periods": 5519983,
+      "dbi:periods": 5519995,
       "dbi:dayparts": 5184600,
       "dbi:dates": 7313400,
       "dbi:event_types": 6197513,
       "dbi:halves": 6391029,
       "dbi:officialtimetables": 4999772,
-      "timetables": 1708378,
-      "dbi:timetables": 2812741,
+      "timetables": 1708397,
+      "dbi:timetables": 2812949,
       "dbi:students": 8218491
     }
   }

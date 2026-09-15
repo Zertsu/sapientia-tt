@@ -10,12 +10,12 @@
       "allow": false
     },
     "regular": {
-      "default_num": "206",
+      "default_num": "",
       "timetables": [
         {
-          "tt_num": "206",
+          "tt_num": "207",
           "year": 2026,
-          "text": "Modositható_01_Maros_26_27_I_felev (09. 14 - 2026. 09. 25)",
+          "text": "Kéthetes_01_Maros_26_27_I_felev (09. 14 - 2026. 09. 25)",
           "datefrom": "2026-09-14",
           "hidden": false
         }
